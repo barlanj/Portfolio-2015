@@ -1,0 +1,89 @@
+body {
+    background-color: #537987;
+}
+
+
+#loginErrorDiv {
+    position: absolute;
+    background-color: #EEEEE0;
+    color: #D22054;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+}
+
+#mainContainer {
+    
+    z-index: 9999;
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#login {
+    position: relative;
+    float: left;
+}
+
+#register {
+    float: left;
+}
+
+
+.formContainer {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+input[type='text'], input[type='password'], input[type='email'] {
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#loginButton, #registerButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+#loginButton:hover, #registerButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+#loginButton:active, #registerButton:active {
+	position:relative;
+	top:1px;
+}

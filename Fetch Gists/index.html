@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<script type="text/javascript" src="gistScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    
+    <div class="headerContainer">
+        <div class="headerContent">
+            Fetch GISTS
+        </div>
+
+    </div>
+
+    <div class="topContainer">
+        <div class="topContent">
+            <fieldset id="selectLanguages">
+                <legend> Select Languages Filter (optional): </legend>
+                <ul class="checkboxLang"> 
+                    <li><div class="squaredThree"><input type="checkbox" name="lang" value="Python" id="squaredThree"> Python </div>
+                    <li><input type="checkbox" name="lang" value="JavaScript"> JavaScript
+                    <li><input type="checkbox" name="lang" value="JSON"> JSON
+                    <li><input type="checkbox" name="lang" value="SQL"> SQL
+                    <li><input type="checkbox" name="lang" value="HTML"> HTML
+                    <li><input type="checkbox" name="lang" value="CSS"> CSS
+                    <li><input type="checkbox" name="lang" value="Erlang"> Erlang
+                    <li><input type="checkbox" name="lang" value="C"> C
+                    <li><input type="checkbox" name="lang" value="C++"> C++
+                    <li><input type="checkbox" name="lang" value="Markdown"> Markdown
+                    <li><input type="checkbox" name="lang" value="Text"> Text
+                </ul>
+            </fieldset>
+        
+            <div class="search">
+                <input type="number" id="pageCount" min="1" max="5" placeholder="page #"/>
+                <input type="submit" class="fetchButton" value="Fetch" onclick="getTheGists()"/>
+            </div>
+        </div>
+    </div>
+    <div class="bodyContainer">
+        <div class="column-left"> 
+            <h1 class="textHeader"> Search Results </h1> 
+            <div id="searchResults"></div>   
+        </div>
+
+        <div class="column-right"> 
+            <h1 class="textHeader"> Favorite Gists </h1>
+            <div id="favoriteContainer"></div>  
+        </div>
+    </div>
+
+        
+    
+    
+    
+
+
+
+
+
+</body>
+
+</html>

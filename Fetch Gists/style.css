@@ -1,0 +1,216 @@
+body{
+	height: auto;
+	background-color: white; /*#3d3d3d;*/
+	font-family:Courier New;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1.textHeader {
+    font-size: 17px;
+    color: cadetblue;
+    
+}
+
+.headerContent {
+    color: red;
+    text-align: center;
+	color: #000000;
+	font-size: 50px;
+	padding-top: 50px;;
+
+}
+
+.search {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0px;
+    
+}
+
+.topContainer {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 30px 0px 30px 0px;
+    
+}
+
+.topContent{ 
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodyContainer {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    overflow: auto;
+}
+
+.column-left{ 
+    float: left; 
+    width: 50%;
+    max-width: 50%; 
+    height: auto;
+}
+
+.column-right{ 
+    width: 50%;
+    display: inline-block;  
+    height: auto;
+}
+
+
+
+
+#formContainer {
+    
+}
+
+#selectLanguages {
+    margin-top: 15px;
+	border: 0px dotted gray;
+}
+
+
+#searchResults {
+    
+}
+
+#favoriteContainer {
+}
+
+.gistEntry {
+	background-color: #e9eaee  ;
+	padding: 5px;
+	margin: 5px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+#favoriteContainer .gistEntry {
+    background-color: #FFEBB8;
+}
+
+#searchResults .gistEntry:nth-child(odd) {
+    background-color: #DBE6EC;
+}
+
+.checkboxLang li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+
+#pageCount {
+    height: 34px;
+    width: 100px;
+    margin-right:0px;
+    line-height: 36px;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.fetchButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+    
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:19px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:106px;
+	text-decoration:none;
+	text-align:center;
+}
+
+.fetchButton:hover {
+	background-color:#1e62d0;
+}
+
+.fetchButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.entryFileCount:before {
+    content: "File Count: ";
+}
+
+.entryLanguage:before {
+    content: "Languages: ";
+}
+
+.entryDescription:before {
+    content: "";
+}
+
+
+.entrySaveButton {
+  border: 0;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4db8b8;
+  padding: 5px 12px 5px 12px;
+  text-decoration: none;
+    
+  margin-right: 15px;
+}
+
+.entrySaveButton:hover {
+  background: #3dafe3;
+  text-decoration: none;
+}
+
+.entryRemoveButton {
+  margin-right: 15px;
+  border: 0;
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FF676A;
+  padding: 5px 14px 5px 14px;
+  text-decoration: none;
+}
+
+.entryRemoveButton:hover {
+    background: #cc3750;
+    text-decoration: none;
+}
+
+.entryLink {
+    text-decoration: none; 
+    color: brown;
+}
+
+.entryDescription {
+    text-decoration: none;
+    color: #3d3d3d;
+}

@@ -1,0 +1,489 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+#container {
+    position: relative;
+}
+
+#topNav {
+  position: absolute;
+  height: 30px;
+  background-color: #359DB5;
+  border-bottom: 4px solid #359DB5;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: right;
+  padding: 10px 20px 0px 20px;
+  color: white;
+}
+
+
+#leftDash {
+  width: 200px;
+  height: 100vh;
+  border: 0px;
+  position: absolute;
+  left: 0;
+  top: 44;
+  background-color: #656A7B;
+  bottom: 0px;
+    
+}
+
+#rightContent {
+    position: absolute;
+    top: 44;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+#public_cards_container {
+  height: auto;
+  background-color: #e9eaee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#uploadContainer {
+  width: 310;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 5px;
+  height: 50;
+  padding: 10px;
+    margin-top:8px;
+
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #A7BAB3;
+    
+    
+}
+
+
+#loginErrorDiv {
+    position: absolute;
+    background-color: #EEEEE0;
+    color: #D22054;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    margin-top: 0;
+    left: 0;
+    top: 0;
+}
+
+/*** User Cards ********/
+
+.icon_linkedin, .icon_github {
+    width: 20px;
+    margin: 0px;
+    display: inline;
+}
+
+.icon_container {
+  display: inline;
+  position: absolute;
+  margin-top: 1;
+  width: 20px;
+  height: 20px;
+}
+
+.userCard {
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0px;
+    width: 390px;
+    height: 600px;
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    
+}
+
+
+
+div#public_cards_container div.userCard {
+    position: relative;;
+    margin: 15px;
+    width: 390px;
+    height: 475px;
+    float: left;
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+
+.frontFace {
+}
+
+.backface {
+    float: left;
+    width: inherit;
+    height: 230px;
+    margin-top: 10px;
+    background-color: #50535B;
+    
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    
+}
+
+.card_left {
+    float: left;
+    height: 230px ;
+    width: 50% ;
+    color: white;
+    background-color: #3e4146;
+    border-radius: 5px 0px 0px 5px;
+    -moz-border-radius: 5px 0px 0px 5px;
+    -webkit-border-radius: 5px 0px 0px 5px;
+    border: 0px solid #000000;
+}
+
+.card_right {
+    float: left;
+    height: 230px;
+    width: 50%;
+    
+    background-color: #35383d;
+    color: white;
+    
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    border: 0px solid #000000;
+}
+
+.userCard_photo {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    border: 3px solid whitesmoke;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-size: contain;
+    
+}
+
+.userCard_fullname {
+    font-weight: 600;
+    color: whitesmoke;
+    
+    font-size: 23px;
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    
+    border: 0px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+
+.userCard_title {
+    font-weight: 200;
+    color: whitesmoke;
+    
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    height: 18px;
+    
+    border: 0px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+
+
+.userCard_address {
+    font-weight: 200;
+    color: whitesmoke;
+    
+    font-size: 18px;
+    text-align: center;
+    width: 75%;
+    height: 20px;
+    
+    border: 0px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.userCard_email {
+    font-weight: 200;
+    color: whitesmoke;
+    
+    font-size: 16px;
+    text-align: center;
+    width: 75%;
+    height: 17px;
+    
+    border: 0px solid whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+}
+
+.userCard_links {
+    width: 75%;
+    height: 112px;
+    
+    border-top: 1px solid whitesmoke;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+
+/**** */
+#userCard_dataEntry {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input#fullname.cardInput,
+input#title.cardInput,
+input#address.cardInput,
+input#email.cardInput,
+input#linkedin.cardInput,
+input#github.cardInput,
+textarea#back.cardInput {
+    font-family: Josefin Slab;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    
+    font-weight:100;
+    color: whitesmoke;
+    border: 0;
+}
+
+input#fullname.cardInput {
+    font-weight: thin;
+    font-size: 20px;
+}
+
+
+
+input#title.cardInput {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+input#linkedin.cardInput, 
+input#github.cardInput{
+    text-align: left;
+    width: 70%;
+    margin-top: 4px;
+    margin-left: 30px;
+    margin-bottom: 18px;
+}
+
+
+textarea#back.cardInput {
+    padding: 25px;
+    font-weight: 100;
+    font-size: 13px;
+    text-align: justify;
+    height: 230px;
+    overflow: auto;
+    resize: none;
+    
+}
+
+
+input#fullname.cardInput:focus,
+input#title.cardInput:focus,
+input#address.cardInput:focus,
+input#email.cardInput:focus,
+input#linkedin.cardInput:focus,
+input#github.cardInput:focus {
+    background-color:  #DADBDF;
+    border: 0px;
+    color: #CC2C1E;
+    outline: 0;
+    
+}
+
+/* PUBLIC */
+
+.p_userCard_fullname {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Josefin Slab;
+  font-size: 20px
+}
+
+
+.p_userCard_title {
+   margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Josefin Slab;
+  font-size: 14;   
+}
+
+
+.p_userCard_back {
+  font-family: Josefin Slab;
+   color: white;
+  padding: 25px;
+  font-weight: 100;
+  font-size: 13px;
+  text-align: justify   
+}
+
+
+.p_userCard_address {
+  ont-weight: 200;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: center;
+  width: 75%;
+  height: 20px;
+  border: 0px solid whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  font-family: Josefin Slab;   
+}
+
+.p_userCard_email {
+   font-weight: 200;
+  color: whitesmoke;
+  font-size: 14;
+  text-align: center;
+  width: 75%;
+  height: 17px;
+  border: 0px solid whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4px;
+  font-family: Josefin Slab   
+}
+
+.p_linkedinContent, .p_githubContent {
+  font-size: 14px;
+  font-family: Josefin Slab;
+  width: 75%;
+  margin-left: 30px;
+}
+
+.p_icon_container {
+  display: inline;
+  position: absolute;
+  margin-top: -2;
+  width: 20px;
+  height: 20px;
+}
+
+
+.p_userCard_link_linkedin, .p_userCard_link_github {
+    margin-bottom: 22px;
+}
+/************************** */
+.onoffswitch {
+    position: relative; 
+    width: 99px;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FFFFFF; border-radius: 7px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 27px; padding: 0; line-height: 27px;
+    font-size: 17px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Public";
+    padding-left: 11px;
+    background-color: #A1DE85; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "Private";
+    padding-right: 11px;
+    background-color: #FFD3BF; color: #402323;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 12px; margin: 7.5px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF; border-radius: 7px;
+    position: absolute; top: 0; bottom: 0; right: 68px;
+    -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
+    -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+
+div.paragraph {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 0px; 
+}
